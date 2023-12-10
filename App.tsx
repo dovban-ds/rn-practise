@@ -9,23 +9,26 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import {data} from './source/navigation 5/data';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-import {FirstBlock} from './source/task1-4/FirstBlock';
-// import {GradientText} from './source/task1-4/GradientText';
+import FirstBlock from './source/task1-4/FirstBlock';
+import Ceo from './source/navigation 5/Ceo';
+import Tenk from './source/navigation 5/Tenk';
+
+const Stack = createNativeStackNavigator();
 
 function App(): React.JSX.Element {
   return (
-    <SafeAreaView style={styles.wrapper}>
+    <NavigationContainer>
       <StatusBar hidden={true} />
-      <FirstBlock />
-    </SafeAreaView>
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen name="Home" component={FirstBlock} />
+        <Stack.Screen name={data[0].position} component={Ceo} />
+        <Stack.Screen name={data[1].position} component={Tenk} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 

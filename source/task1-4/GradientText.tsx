@@ -12,7 +12,7 @@ export const GradientText = () => {
   ];
   return (
     <MaskedView
-      style={{flex: 0.5, flexDirection: 'row'}}
+      style={{flex: 1, flexDirection: 'row'}}
       maskElement={
         <View
           style={{

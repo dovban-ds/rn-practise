@@ -5,23 +5,15 @@ import Bridge from '../../assets/images/bridge.svg';
 import Sea from '../../assets/images/sea.svg';
 import Mountain from '../../assets/images/mountain.svg';
 import {LinearGradient} from 'react-native-gradients';
-import {LinearGradient as Wow} from 'react-native-gradients';
 import {GradientText} from './GradientText';
-import MaskedView from '@react-native-masked-view/masked-view';
+import Cards from '../navigation 5/Cards';
 
-export const FirstBlock = () => {
+function FirstBlock({navigation}: any) {
   const colorList = [
     {offset: '0%', color: '#231557', opacity: '1'},
     {offset: '29%', color: '#44107A', opacity: '1'},
     {offset: '67%', color: '#FF1361', opacity: '1'},
     {offset: '100%', color: '#FFF800', opacity: '1'},
-  ];
-
-  const colorList2 = [
-    {offset: '0%', color: '#FF0000', opacity: '1'},
-    {offset: '29%', color: '#00FF00', opacity: '1'},
-    {offset: '67%', color: '#FF00FF', opacity: '1'},
-    {offset: '100%', color: '#0000CD', opacity: '1'},
   ];
 
   return (
@@ -31,7 +23,7 @@ export const FirstBlock = () => {
       </View>
       <GradientText />
       <View>
-        <Svg height={200} width="100%" viewBox="0 0 100 100">
+        <Svg height={150} width="100%" viewBox="0 0 100 100">
           <Circle
             cx="50"
             cy="50"
@@ -53,9 +45,10 @@ export const FirstBlock = () => {
           <Mountain height={128} style={{}} />
         </View>
       </View>
+      <Cards nav={navigation} />
     </SafeAreaView>
   );
-};
+}
 
 const styles = StyleSheet.create({
   wrapper: {
@@ -79,3 +72,5 @@ const styles = StyleSheet.create({
     height: '100%',
   },
 });
+
+export default FirstBlock;
