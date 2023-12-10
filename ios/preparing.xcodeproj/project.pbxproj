@@ -14,6 +14,16 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-preparing-preparingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-preparing-preparingTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		5E446119BC5F40CF8BE5B858 /* Caveat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1688B7549FA8480DA691F61B /* Caveat-Bold.ttf */; };
+		EFEA96416BB64CD0BFDB0C79 /* Caveat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EF6BAF6B7B74345A9384228 /* Caveat-Medium.ttf */; };
+		147E11ABD1314F2889842F74 /* Caveat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADB38DAA7B9F440094DF0234 /* Caveat-Regular.ttf */; };
+		77FF02175E2B4B8A9B65EC55 /* Caveat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDEBDAD6ED57432FB4E6C689 /* Caveat-SemiBold.ttf */; };
+		8096FC2F496049B8A87279EF /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8921B746B49C4D14A6FA18E0 /* Oswald-Bold.ttf */; };
+		F98DAC286BEA43628958A232 /* Oswald-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16764712120B4D27BF6EC709 /* Oswald-ExtraLight.ttf */; };
+		DFC5B07D8AB7441BB80BF014 /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DB325A24B3847F2AD2EB9BC /* Oswald-Light.ttf */; };
+		8D8FEB9D968B422085A20A41 /* Oswald-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF2A36174D433C8F1BE14D /* Oswald-Medium.ttf */; };
+		1D3C4882837B4BDFBC47B249 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05B8F60F65EE4D4087F4AA32 /* Oswald-Regular.ttf */; };
+		5D634EA806B341C3A88B09C5 /* Oswald-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EC7099B933D41A6991187E2 /* Oswald-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = preparing/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-preparing-preparingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-preparing-preparingTests.release.xcconfig"; path = "Target Support Files/Pods-preparing-preparingTests/Pods-preparing-preparingTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		1688B7549FA8480DA691F61B /* Caveat-Bold.ttf */ = {isa = PBXFileReference; name = "Caveat-Bold.ttf"; path = "../assets/fonts/Caveat-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1EF6BAF6B7B74345A9384228 /* Caveat-Medium.ttf */ = {isa = PBXFileReference; name = "Caveat-Medium.ttf"; path = "../assets/fonts/Caveat-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ADB38DAA7B9F440094DF0234 /* Caveat-Regular.ttf */ = {isa = PBXFileReference; name = "Caveat-Regular.ttf"; path = "../assets/fonts/Caveat-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FDEBDAD6ED57432FB4E6C689 /* Caveat-SemiBold.ttf */ = {isa = PBXFileReference; name = "Caveat-SemiBold.ttf"; path = "../assets/fonts/Caveat-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8921B746B49C4D14A6FA18E0 /* Oswald-Bold.ttf */ = {isa = PBXFileReference; name = "Oswald-Bold.ttf"; path = "../assets/fonts/Oswald-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		16764712120B4D27BF6EC709 /* Oswald-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Oswald-ExtraLight.ttf"; path = "../assets/fonts/Oswald-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4DB325A24B3847F2AD2EB9BC /* Oswald-Light.ttf */ = {isa = PBXFileReference; name = "Oswald-Light.ttf"; path = "../assets/fonts/Oswald-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9FEF2A36174D433C8F1BE14D /* Oswald-Medium.ttf */ = {isa = PBXFileReference; name = "Oswald-Medium.ttf"; path = "../assets/fonts/Oswald-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		05B8F60F65EE4D4087F4AA32 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; name = "Oswald-Regular.ttf"; path = "../assets/fonts/Oswald-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9EC7099B933D41A6991187E2 /* Oswald-SemiBold.ttf */ = {isa = PBXFileReference; name = "Oswald-SemiBold.ttf"; path = "../assets/fonts/Oswald-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +142,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				FD6C37DE985F419189038467 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +168,24 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		FD6C37DE985F419189038467 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				1688B7549FA8480DA691F61B /* Caveat-Bold.ttf */,
+				1EF6BAF6B7B74345A9384228 /* Caveat-Medium.ttf */,
+				ADB38DAA7B9F440094DF0234 /* Caveat-Regular.ttf */,
+				FDEBDAD6ED57432FB4E6C689 /* Caveat-SemiBold.ttf */,
+				8921B746B49C4D14A6FA18E0 /* Oswald-Bold.ttf */,
+				16764712120B4D27BF6EC709 /* Oswald-ExtraLight.ttf */,
+				4DB325A24B3847F2AD2EB9BC /* Oswald-Light.ttf */,
+				9FEF2A36174D433C8F1BE14D /* Oswald-Medium.ttf */,
+				05B8F60F65EE4D4087F4AA32 /* Oswald-Regular.ttf */,
+				9EC7099B933D41A6991187E2 /* Oswald-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +282,16 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				5E446119BC5F40CF8BE5B858 /* Caveat-Bold.ttf in Resources */,
+				EFEA96416BB64CD0BFDB0C79 /* Caveat-Medium.ttf in Resources */,
+				147E11ABD1314F2889842F74 /* Caveat-Regular.ttf in Resources */,
+				77FF02175E2B4B8A9B65EC55 /* Caveat-SemiBold.ttf in Resources */,
+				8096FC2F496049B8A87279EF /* Oswald-Bold.ttf in Resources */,
+				F98DAC286BEA43628958A232 /* Oswald-ExtraLight.ttf in Resources */,
+				DFC5B07D8AB7441BB80BF014 /* Oswald-Light.ttf in Resources */,
+				8D8FEB9D968B422085A20A41 /* Oswald-Medium.ttf in Resources */,
+				1D3C4882837B4BDFBC47B249 /* Oswald-Regular.ttf in Resources */,
+				5D634EA806B341C3A88B09C5 /* Oswald-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
