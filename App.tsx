@@ -24,7 +24,11 @@ function App(): React.JSX.Element {
     <NavigationContainer>
       <StatusBar hidden={true} />
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={FirstBlock} />
+        <Stack.Screen
+          name="Home"
+          component={FirstBlock}
+          options={{headerShown: false}}
+        />
         <Stack.Screen name={data[0].position} component={Ceo} />
         <Stack.Screen name={data[1].position} component={Tenk} />
       </Stack.Navigator>

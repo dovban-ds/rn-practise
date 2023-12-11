@@ -9,7 +9,7 @@ function Cards({nav}: any) {
       <View style={styles.wrapper}>
         <FlatList
           data={data}
-          renderItem={item => <CardMock data={item.item} navigation={nav} />}
+          renderItem={({item}) => <CardMock data={item} navigation={nav} />}
           bounces={false}
         />
       </View>
