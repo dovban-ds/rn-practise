@@ -9,16 +9,7 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
 import {FirstBlock} from './source/task1-4/FirstBlock';
-// import {GradientText} from './source/task1-4/GradientText';
 
 function App(): React.JSX.Element {
   return (
