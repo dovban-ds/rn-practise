@@ -9,13 +9,15 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-import {FirstBlock} from './source/task1-4/FirstBlock';
+// import {FirstBlock} from './source/task1-4/FirstBlock';
+import {SecondBlock} from './source/task7-9/SecondBlock';
 
 function App(): React.JSX.Element {
   return (
     <SafeAreaView style={styles.wrapper}>
       <StatusBar hidden={true} />
-      <FirstBlock />
+      {/* <FirstBlock /> */}
+      <SecondBlock />
     </SafeAreaView>
   );
 }
