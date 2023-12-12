@@ -11,6 +11,7 @@ import {
 } from 'react-native';
 // import {FirstBlock} from './source/task1-4/FirstBlock';
 import {SecondBlock} from './source/task7-9/SecondBlock';
+import FlashMessage from 'react-native-flash-message';
 
 function App(): React.JSX.Element {
   return (
@@ -18,6 +19,7 @@ function App(): React.JSX.Element {
       <StatusBar hidden={true} />
       {/* <FirstBlock /> */}
       <SecondBlock />
+      <FlashMessage position="top" />
     </SafeAreaView>
   );
 }
